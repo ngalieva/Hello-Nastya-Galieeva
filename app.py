@@ -8,6 +8,7 @@ app = Flask(__name__)
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
 RESOURCE_DIR = os.path.join(BASE_FOLDER, "resources")
 
+print("Hello i hate myself")
 
 @app.route('/')
 def hello_world():
